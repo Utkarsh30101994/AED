@@ -232,8 +232,8 @@ public class ViewPanel extends javax.swing.JPanel {
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         // TODO add your handling code here:
-        this.panel.remove(this);
-        CardLayout layout =(CardLayout) this.panel.getLayout();
+       // this.panel.remove(this);
+      //  CardLayout layout =(CardLayout) this.panel.getLayout();
         
         Component [] comps = this.panel.getComponents();
         for (Component comp : comps){
@@ -243,7 +243,7 @@ public class ViewPanel extends javax.swing.JPanel {
             }
         }
     
-        layout.previous(panel);        
+       // layout.previous(panel);        
     }//GEN-LAST:event_btnBackActionPerformed
 
 
