@@ -225,7 +225,7 @@ public class AdminCreateScreen extends javax.swing.JPanel {
        return b;
    }
     
-   // private boolean pwdPatternCorrect() {
+    private boolean pwdPatternCorrect() {
        Pattern pa = Pattern.compile("((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[*#$&]).{6,20})");
        Matcher ma = pa.matcher(Pwordtxt.getText());
        boolean c = ma.matches();
